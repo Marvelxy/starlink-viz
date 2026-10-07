@@ -1,0 +1,8 @@
+.build/
+.build-*/
+.build-universal/
+dist/
+*.dmg
+StarlinkViz.app/
+.DS_Store
+*.o

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:StarlinkViz}",
+      "name": "Debug StarlinkViz",
+      "target": "StarlinkViz",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug StarlinkViz"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:StarlinkViz}",
+      "name": "Release StarlinkViz",
+      "target": "StarlinkViz",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release StarlinkViz"
+    }
+  ]
+}
