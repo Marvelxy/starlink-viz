@@ -108,4 +108,4 @@ Makefile                          build/wrap/run/open/check/clean
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+GNU GPL v3 — see [LICENSE](LICENSE). Copyright (c) 2026 Marvelous Akpotu.
