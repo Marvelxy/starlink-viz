@@ -140,7 +140,6 @@ enum GrpcURLBridge {
             fm.currentDirectoryPath + "/StarlinkViz/Proto/dish.protoset",
             Bundle.main.bundlePath + "/Proto/dish.protoset",
             (Bundle.main.executablePath.map { ($0 as NSString).deletingLastPathComponent } ?? "") + "/Proto/dish.protoset",
-            "/Users/admin/Workspace/Swift/StarlinkViz/Proto/dish.protoset",
         ]
         for c in candidates where fm.fileExists(atPath: c) { return c }
         throw DishError.missingProtoset(

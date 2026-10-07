@@ -105,3 +105,7 @@ Makefile                          build/wrap/run/open/check/clean
 - `Timeline`: 1s/2s/5s outage ticks + ping-drop spikes. Regular ~15s-spaced blips = handover/obstruction; random long blocks = obstruction/heating/cable/POP issue.
 - `Sky`: if outage snapshot always has low max-elevation or a blocked azimuth wedge matching your `obstruction wedges`, it's a sky-view problem — move dish.
 - `getDiagnostics` alerts: `obstructed`, `high_sky_obstruction`, `motorsStuck`, thermal, etc.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
